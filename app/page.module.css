@@ -46,6 +46,15 @@
   max-width: 100%;
 }
 
+.centerGrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  width: var(--max-width);
+  max-width: 100%;
+}
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);

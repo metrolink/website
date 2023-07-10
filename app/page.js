@@ -37,6 +37,7 @@ export default function Home() {
           height={37}
           priority
         />
+        <p>Graphic design is my passion :)</p>
       </div>
 
       <div className={styles.grid}>
@@ -89,6 +90,17 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div>
+      <div className={styles.centerGrid}>
+        <div className={styles.card}>
+          <h2>Bachelor project!</h2>
+        </div>
+        <div className={styles.card}> 
+        <Image className={styles.logo} src="/vercel.svg" width={200} height={200}/>
+       </div>
+       <div className={styles.card}>
+        <p>This is info about my bachelor project</p>
+       </div>
       </div>
     </main>
   )
