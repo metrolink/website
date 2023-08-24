@@ -96,7 +96,7 @@ export default function Home() {
           <h2>Bachelor project!</h2>
         </div>
         <div className={styles.card}> 
-        <Image className={styles.logo} src="/vercel.svg" width={200} height={200}/>
+        <Image className={styles.banner} src="/CardLordHighSchool.png" width={200} height={200}/>
        </div>
        <div className={styles.card}>
         <p>This is info about my bachelor project</p>

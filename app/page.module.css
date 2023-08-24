@@ -116,6 +116,26 @@
 .logo {
   position: relative;
 }
+
+.banner{
+  position:relative;
+}
+
+.banner:hover{
+  position: relative;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
